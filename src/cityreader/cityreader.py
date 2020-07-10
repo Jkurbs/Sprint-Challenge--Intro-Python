@@ -5,7 +5,6 @@ import csv
 
 class City: 
   def __init__(self, name, lat, lon):
-    super().__init__()
     self.name = name 
     self.lat = lat 
     self.lon = lon 
@@ -41,7 +40,7 @@ cityreader(cities)
 
 # Print the list of cities (name, lat, lon), 1 record per line.
 for c in cities:
-  print(c.name + ", " + c.lat + ", " + c.lon)
+  print(c.name + ", " + c.lat + "," + c.lon)
 
 # STRETCH GOAL!
 #
