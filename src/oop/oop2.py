@@ -19,11 +19,9 @@ class GroundVehicle():
 #
 # Override the drive() method in Motorcycle so that it returns "BRAAAP!!"
 
-
 # TODO
 
 class Motorcycle(GroundVehicle): 
-
 
     def __init__(self, num_wheels=2):
         super().__init__(num_wheels=num_wheels)
@@ -33,7 +31,6 @@ class Motorcycle(GroundVehicle):
         return "BRAAAP!!"
 
 moto = Motorcycle()
-
 
 vehicles = [
     GroundVehicle(),
